@@ -1,0 +1,101 @@
+body{
+	font-family: "Arial";
+}
+.page-header{
+	text-align: center;
+}
+.search-section {
+    margin: 50px auto;
+    max-width: 700px;
+    position: relative;
+}
+.search-section #city_name{
+    width: calc(100% - 143px);
+    padding: 10px;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: -6px;
+}
+.search-submit{
+	width: 120px;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0;
+    padding: 12px 0;
+    background-color: #ed4949;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid #ed4949;
+    border-radius: 5px;	
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.report-container{
+	max-width: 700px;
+	margin: 0 auto;
+}
+#suggesstion-box {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: calc(100% - 121px);
+    margin-left: 5px;
+    text-align: left;
+    margin-left: 0px;
+	display: none;
+}
+.suggestion-box {
+    list-style: none;
+    padding: 0;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+.suggestion-box li {
+    padding: 6px 20px;
+    font-size: 20px;
+	cursor: pointer;
+}
+.suggestion-box li:hover {
+    background-color: #ed4949;
+    color: #fff;
+    border: 0;
+}
+.time {
+    display: block;
+}
+.time span {
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.weather-forecast {
+    display: block;
+    width: 100%;
+}
+.weather-status{
+		display: inline-block;
+		vertical-align: middle;
+		padding: 10px 20px 10px 0;
+}
+img.weather-icon {
+    width: 70px;
+    height: 70px;
+    display: block;
+    vertical-align: middle;
+}
+.temprature {
+    display: inline-block;
+    vertical-align: middle;
+}
+.actual-temperature {
+    display: block;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.man-min-temperature{
+	display: inline-block;
+	margin-right: 10px;
+}
